@@ -27,14 +27,14 @@ Repository: https://github.com/sp1371-SRM/oslab (public, branch `main`).
 Download one file; change `e8.c` to any filename through `e13.c`:
 
 ```sh
-curl -fL https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e8.c -o e8.c
+curl -fLO https://sp1371-srm.github.io/oslab/e8.c
 ```
 
 Download all six files in Bash (Linux, macOS, WSL, or Git Bash):
 
 ```sh
 for n in 8 9 10 11 12 13; do
-  curl -fL "https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e${n}.c" -o "e${n}.c" || break
+  curl -fL "https://sp1371-srm.github.io/oslab/e${n}.c" -o "e${n}.c" || break
 done
 ```
 
@@ -42,18 +42,18 @@ In Windows PowerShell:
 
 ```powershell
 8..13 | ForEach-Object {
-  curl.exe -fL "https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e$_.c" -o "e$_.c"
+  curl.exe -fL "https://sp1371-srm.github.io/oslab/e$_.c" -o "e$_.c"
   if ($LASTEXITCODE -ne 0) { throw "Download failed for e$_.c" }
 }
 ```
 
 ### Direct download URLs
 
-- [e8.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e8.c)
-- [e9.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e9.c)
-- [e10.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e10.c)
-- [e11.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e11.c)
-- [e12.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e12.c)
-- [e13.c](https://raw.githubusercontent.com/sp1371-SRM/oslab/main/e13.c)
+- [e8.c](https://sp1371-srm.github.io/oslab/e8.c)
+- [e9.c](https://sp1371-srm.github.io/oslab/e9.c)
+- [e10.c](https://sp1371-srm.github.io/oslab/e10.c)
+- [e11.c](https://sp1371-srm.github.io/oslab/e11.c)
+- [e12.c](https://sp1371-srm.github.io/oslab/e12.c)
+- [e13.c](https://sp1371-srm.github.io/oslab/e13.c)
 
 No GitHub authentication is required for these public download URLs.
