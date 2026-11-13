@@ -1,3 +1,6 @@
+// Experiment 10: CPU Scheduling
+// Non-Preemptive Priority and Round Robin
+
 #include <stdio.h>
 #define N 100
 

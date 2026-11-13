@@ -1,3 +1,6 @@
+// Experiment 11: Page Replacement
+// FIFO, LRU and LFU
+
 #include <stdio.h>
 #define N 200
 #define F 50

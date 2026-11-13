@@ -1,3 +1,6 @@
+// Experiment 12: Memory Allocation
+// First Fit, Best Fit and Worst Fit
+
 #include <stdio.h>
 #define N 100
 

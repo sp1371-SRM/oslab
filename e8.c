@@ -1,3 +1,6 @@
+// Experiment 8: Deadlock Avoidance
+// Banker's Algorithm: Safety and Resource Request
+
 #include <stdio.h>
 #define N 20
 

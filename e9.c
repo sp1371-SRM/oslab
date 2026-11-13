@@ -1,3 +1,6 @@
+// Experiment 9: CPU Scheduling
+// FCFS and Non-Preemptive SJF
+
 #include <stdio.h>
 #define N 100
 

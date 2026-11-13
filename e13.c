@@ -1,3 +1,6 @@
+// Experiment 13: Disk Scheduling
+// FCFS, SCAN and C-SCAN
+
 #include <stdio.h>
 #include <stdlib.h>
 #define N 100
